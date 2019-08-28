@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-Triangle", "01-Triangle\01-Triangle.vcxproj", "{30C12D32-4C67-4F51-861F-D04C0DA7A99B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{700728D7-89D0-469B-BB2E-687F6CE70975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25E2CAFC-21BC-4ED8-85A1-C6E468A6829A}"
+	ProjectSection(SolutionItems) = preProject
+		public\srcs\glad.c = public\srcs\glad.c
+		public\srcs\shader.cpp = public\srcs\shader.cpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25E2CAFC-21BC-4ED8-85A1-C6E468A6829A} = {700728D7-89D0-469B-BB2E-687F6CE70975}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCE052A2-B851-4BE9-8619-9434FB40A5E5}
