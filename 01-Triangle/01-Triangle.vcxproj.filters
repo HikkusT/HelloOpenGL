@@ -29,10 +29,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="helloTriangle.vs">
+    <None Include="helloTriangle.frag">
       <Filter>Source Files\Shaders</Filter>
     </None>
-    <None Include="helloTriangle.fs">
+    <None Include="helloTriangle.vert">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>

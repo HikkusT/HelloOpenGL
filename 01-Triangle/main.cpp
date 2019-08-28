@@ -41,7 +41,7 @@ int main()
 
 	// Build and compile
 	// -----------------
-	Shader ourShader("helloTriangle.vs", "helloTriangle.fs");
+	Shader ourShader("helloTriangle.vert", "helloTriangle.frag");
 
 
 	// Setting up OpenGL

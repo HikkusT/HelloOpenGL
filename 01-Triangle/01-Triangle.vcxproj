@@ -127,8 +127,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="helloTriangle.fs" />
-    <None Include="helloTriangle.vs" />
+    <None Include="helloTriangle.frag" />
+    <None Include="helloTriangle.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
